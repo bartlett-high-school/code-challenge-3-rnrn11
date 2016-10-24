@@ -1,1 +1,39 @@
-/* Put your css here for your table and page styling */
+
+body {
+	background-color:#000; 
+}
+
+#hehe_xd {
+	background-color:#fff;
+	padding: 50px;
+	width: 75%;
+	margin: 100px auto;
+}
+P{font-family: 'Open Sans', sans-serif};
+h1 {font-family: 'Open Sans', sans-serif} 
+h2 {
+	
+}
+#table{
+	width: 50%;
+	
+	float: left;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+}
+.clear {
+	clear: both;
+}
+@media only screen and {max-width: 767px}
+	#table {
+		width: 100%!important;
+		float: none!important;
+		margin-right: 0!important;
+	}
